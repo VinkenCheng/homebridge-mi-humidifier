@@ -3,6 +3,7 @@ const MiHumidifierV1 = require('./devices/MiHumidifierV1');
 const MiHumidifierCA1 = require('./devices/MiHumidifierCA1');
 const MiHumidifierCB1 = require('./devices/MiHumidifierCB1');
 const MiHumidifierMJJSQ = require('./devices/MiHumidifierMJJSQ');
+const MiHumidifierJSQ1 = require('./devices/MiHumidifierJSQ1');
 const MiHumidifierFactory = require('./devices/MiHumidifierFactory');
 const { CharacteristicOperation } = require('./devices/constants');
 const miio = require('miio');
@@ -46,7 +47,7 @@ class MiHumidifier {
         }
 
 
-        const SUPPORTED_HUMIDIFIERS = [new MiHumidifierV1(Characteristic), new MiHumidifierCA1(Characteristic), new MiHumidifierCB1(Characteristic), new MiHumidifierMJJSQ(Characteristic)];
+        const SUPPORTED_HUMIDIFIERS = [new MiHumidifierV1(Characteristic), new MiHumidifierCA1(Characteristic), new MiHumidifierCB1(Characteristic), new MiHumidifierMJJSQ(Characteristic), new MiHumidifierJSQ1(Characteristic)];
 
         this.infoService = new Service.AccessoryInformation();
         this.humidifierService = new Service.HumidifierDehumidifier(options.name);

@@ -44,6 +44,10 @@
           {
             "title": "mjjsq",
             "enum": ["mjjsq"]
+          },
+          {
+            "title": "jsq1",
+            "enum": ["jsq1"]
           }
         ],
         "default": "v1"

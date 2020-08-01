@@ -1,6 +1,6 @@
 {
   "name": "homebridge-mi-humidifier",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Xiaomi Mi Humidifier plugin for Homebridge",
   "main": "index.js",
   "author": "russtone@yandex.ru",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/russtone/homebridge-mi-humidifier.git"
+    "url": "https://github.com/VinkenCheng/homebridge-mi-humidifier.git"
   },
   "engines": {
     "node": ">=8.3.0",
